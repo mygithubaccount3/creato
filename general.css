@@ -1,0 +1,34 @@
+body {
+  background: #020407; }
+
+h1, h2, p {
+  color: #ffffff; }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
+.forest-bg {
+  background: url("images/bg-header.jpg") center center no-repeat;
+  background-size: cover;
+  height: 400px; }
+  .forest-bg .absolute-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 400px;
+    background-color: rgba(5, 5, 5, 0.8); }
+  .forest-bg .photo-wrap {
+    height: 400px; }
+    .forest-bg .photo-wrap .photo-bg {
+      height: 100%;
+      width: auto; }
+
+.blue-bg {
+  background: rgba(31, 91, 179, 0.8); }
+
+.carousel-bt {
+  width: 500px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=general.css.map */
