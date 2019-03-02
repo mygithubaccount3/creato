@@ -11,7 +11,7 @@ h1, h2, p {
     padding-top: 100px; }
 
 .forest-bg {
-  background: url("images/bg-header.jpg") center center no-repeat;
+  background: url("../images/bg-header.jpg") center center no-repeat;
   background-size: cover;
   height: 400px; }
   .forest-bg .absolute-bg {
@@ -20,6 +20,8 @@ h1, h2, p {
     right: 0;
     height: 400px;
     background-color: rgba(5, 5, 5, 0.5);
+    -webkit-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
     transition: .2s ease-in; }
   .forest-bg .photo-wrap {
     height: 400px; }
@@ -28,6 +30,8 @@ h1, h2, p {
       width: auto; }
   .forest-bg:hover .absolute-bg {
     background-color: rgba(5, 5, 5, 0.8);
+    -webkit-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
     transition: .2s ease-in; }
 
 .about {
@@ -39,7 +43,9 @@ h1, h2, p {
       .about .blue-bg .about-image > img {
         width: 100%;
         height: auto;
-        transform: translate(-50px, -50px); }
+        -webkit-transform: translate(-50px, -50px);
+            -ms-transform: translate(-50px, -50px);
+                transform: translate(-50px, -50px); }
 
 .carousel {
   width: 500px;
