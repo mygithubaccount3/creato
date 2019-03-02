@@ -1,7 +1,7 @@
 .idea
-.gitignore
 node_modules
 app
 gulpfile.js
 package.json
 package-lock.json
+.gitignore
